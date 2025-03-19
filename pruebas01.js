@@ -11,3 +11,16 @@ function calculateAge(age){
 }
 
 console.log(calculateAge(20));
+
+
+function sumatoria(suma){
+ let result = sum1 + sum2;
+
+ if(suma === result){
+    console.log("El resultado es:"+ result );
+ } else{
+    console.log("No se puede calcular la suma");
+ }
+}
+
+console.log(sumatoria(27, 35));
